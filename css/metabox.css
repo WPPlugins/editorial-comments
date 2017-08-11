@@ -1,0 +1,57 @@
+#wpecs-comments {
+    width: 100%;
+}
+#wpecs-comments .wpecs-row {
+    border-bottom: 1px solid #e7e7e7;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#wpecs-comments .wpecs-row .wpecs-user {
+    width: 64px;
+    font-size: 10px;
+    line-height: 1;
+    text-align: center;
+}
+#wpecs-comments .wpecs-row .wpecs-user > img {
+    background: #f6f6f6;
+    border: 1px solid #e7e7e7;
+    margin: 3px 0;
+    padding: 3px;
+}
+#wpecs-comments .wpecs-row .wpecs-user,
+#wpecs-comments .wpecs-row .wpecs-comment {
+    vertical-align: top;
+}
+#wpecs-comments .wpecs-row .wpecs-comment {
+    padding-left: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+#wpecs-comments .wpecs-row .wpecs-comment p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#wpecs-comments .wpecs-row .wpecs-comment .wpecs-delete-link,
+#wpecs-comments .wpecs-row .wpecs-comment .wpecs-edit-link {
+    font-size: 10px;
+}
+#wpecs-comments .wpecs-row .wpecs-comment .wpecs-comment-edit-form {
+    display: none;
+}
+#wpecs-comments .wpecs-row .wpecs-comment .wpecs-comment-edit-form textarea {
+    margin-bottom: 10px;
+    max-width: 100%;
+    resize:vertical;
+    width: 100%;
+}
+#wpecs-form .wpecs-textarea {
+    max-width: 100%;
+    resize:vertical;
+    width: 100%;
+    margin: 10px 0;
+}
+#wpecs-loading-img {
+    margin: 5px 0 0 5px;
+    display: none;
+}
